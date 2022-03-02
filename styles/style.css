@@ -112,6 +112,10 @@ html, body {
         padding: 10px;
     }
 
+    .main-content.active {
+        transform: translateY(-10000px);
+    }
+
     .menu-icon.active-menu .bar:nth-child(2) {
         opacity: 0;
     }

@@ -6,4 +6,5 @@ document.getElementsByClassName('menu-icon')[0].addEventListener('click', functi
     document.getElementsByClassName('menu-options')[0].classList.toggle('active-menu');
     document.getElementsByClassName('mobile-menu')[0].classList.toggle('active');
     document.getElementsByClassName('logo')[0].classList.toggle('active');
+    document.getElementsByClassName('main-content')[0].classList.toggle('active');
 });
