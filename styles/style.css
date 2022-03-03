@@ -97,7 +97,7 @@ html, body {
         position: fixed;
         margin-top: 62px;
         width: 100%;
-        height: 100%;
+        height: 90%;
         transition: 1.0s all ease;
         transform: translateX(1000px);
     }
