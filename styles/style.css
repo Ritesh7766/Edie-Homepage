@@ -123,8 +123,4 @@ html, body {
     .active.menu {
         transform: translateX(0);
     }
-
-    .active.main-content {
-        transform: translateY(-20000px);
-    }
 }
