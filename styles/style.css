@@ -67,7 +67,7 @@ html, body {
 
     .menu-options {
         flex-direction: column;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
     }
 
     .menu-options a {
