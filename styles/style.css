@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     color: #333333;
 }
 
@@ -12,122 +12,115 @@ html, body {
 .total-center {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
-.nav-1 {
+.logo {
+    font-family: 'Heebo', monospace;
+    font-size: 1.2em;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-options a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Poppins', monospace;
+    margin: 20px;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
 }
 
 .mobile-menu {
     display: flex;
 }
 
-.logo {
-    font-family: 'Heebo', monospace;
-    font-size: 1.4em;
-    cursor: pointer;
+.menu-options a:hover {
+    border-bottom: 1px solid #333333;
+}
+
+.link {
+    text-align: center;
 }
 
 .menu-options {
     display: flex;
 }
 
-.menu-options a {
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    font-family: 'Meebo', monospace;
-    font-size: 1.4em;
-    font-weight: 300;
+.menu {
+    background-color: white;
 }
 
-.menu-options a:hover {
-    border-bottom: 1px solid #333333;
-}
-
-.logo:hover {
-    transform: translateX(10px);
-    transition-duration: 0.45s;
-}
-
-@media screen and (max-width: 800px) {
-    .nav-1 {
-        padding: 10px;
+@media screen and (max-width: 760px) {
+    .navbar {
+        padding: 0;
         flex-direction: column;
-        height: 71px;
     }
 
     .mobile-menu {
         justify-content: space-between;
     }
 
-    .menu-icon {
-        margin-top: 10px;
-        cursor: pointer;
-    }
-
-    .menu-icon .bar {
-        display: block;
-        width: 25px;
-        height: 3px;
-        background-color: #333333;
-        margin: 5px auto;
-        transition: 1.0s all ease-in-out;
-    }
-
-    .menu-options .link {
-        width: fit-content;
-    }
-
     .menu-options {
         flex-direction: column;
     }
 
-    .total-center {
-        transition: 1s all ease;
-        transform: translateY(-1000px);
+    .menu-options a {
+        width: fit-content;
     }
 
-    .active-menu {
-        height: 100%;
+    .menu-btn {
+        margin: 15px;
+        cursor: pointer;
     }
 
-    .logo.active {
-        opacity: 0;
+    .menu-btn .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: #333333;
+        transition: 1.5s all ease;
     }
 
-    .nav-1.active-menu {
+    .mobile-menu {
         position: fixed;
         width: 100%;
-        padding: 0;
         background-color: white;
     }
 
-
-    .mobile-menu.active {
-        padding: 10px;
+    .menu {
+        position: fixed;
+        margin-top: 62px;
+        width: 100%;
+        height: 100%;
+        transition: 1.0s all ease;
+        transform: translateX(1000px);
     }
 
-    .main-content.active {
-        transform: translateY(-10000px);
+    .active.menu {
+        transform: translateX(0);
     }
 
-    .menu-icon.active-menu .bar:nth-child(2) {
+    /*Autistic close button*/
+    .active.menu-btn .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .menu-icon.active-menu .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+    .active.menu-btn .bar:nth-child(1) {
+        transform: translateY(8px) rotate(1755deg);
     }
 
-    .menu-icon.active-menu .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+    .active.menu-btn .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-1755deg);
     }
+    /*Autistic close button*/
 
-    .total-center.active-menu, .menu-options.active-menu {
-        transform: translateY(0);
+    .active.menu {
+        transform: translateX(0);
     }
 }
