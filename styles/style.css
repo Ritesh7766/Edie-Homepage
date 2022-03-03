@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: #333333;
+    font-family: 'Poppins', monospace;
 }
 
 html, body {
@@ -25,8 +26,8 @@ html, body {
 .menu-options a {
     display: inline-block;
     text-decoration: none;
-    font-family: 'Poppins', monospace;
     margin: 20px;
+    border-bottom: 1px solid white;
 }
 
 .navbar {
@@ -53,6 +54,46 @@ html, body {
 
 .menu {
     background-color: white;
+}
+
+/*-----------------*/
+.main-content {
+    margin: 40px;
+}
+
+.head {
+    margin-left: 140px;
+}
+
+.top {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info {
+    color: #2D9CDB;
+}
+
+.header {
+    white-space: pre-line;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 100%;
+    padding: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    white-space: pre-line;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 760px) {
@@ -107,17 +148,21 @@ html, body {
         transform: translateX(0);
     }
 
+    .main-content {
+        margin-top: 62px;
+    }
+
     /*Autistic close button*/
     .active.menu-btn .bar:nth-child(2) {
         opacity: 0;
     }
 
     .active.menu-btn .bar:nth-child(1) {
-        transform: translateY(8px) rotate(1755deg);
+        transform: translateY(8px) rotate(315deg);
     }
 
     .active.menu-btn .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-1755deg);
+        transform: translateY(-8px) rotate(-315deg);
     }
     /*Autistic close button*/
 
