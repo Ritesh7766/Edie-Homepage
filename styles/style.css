@@ -206,6 +206,30 @@ html, body {
         transform: translateY(-8px) rotate(-315deg);
     }
     /*Autistic close button*/
+
+    .top .info {
+        font-size: 0.8em;
+    }
+
+    .top .header {
+        font-size: 1.2em;
+    }
+
+    .top .text {
+        font-size: 0.8em;
+    }
+
+    .form .small-text {
+        font-size: 0.6em;
+    }
+
+    .form .input input {
+        width: 250px;
+    }
+
+    .input .btn {
+        left: 170px;
+    }
 }
 
 @media screen and (max-width: 800px) {
