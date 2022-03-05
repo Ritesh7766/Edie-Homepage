@@ -86,7 +86,7 @@ html, body {
 
 .image img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .text {
@@ -206,8 +206,21 @@ html, body {
         transform: translateY(-8px) rotate(-315deg);
     }
     /*Autistic close button*/
+}
 
+@media screen and (max-width: 800px) {
     .active.menu {
         transform: translateX(0);
+    }
+
+    .main-content {
+        margin-top: 62px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .top .head {
+        margin-left: 20px;
     }
 }
