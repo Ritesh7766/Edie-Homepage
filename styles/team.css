@@ -1,0 +1,48 @@
+#red-info {
+    color: #EB5757;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pre-line {
+    white-space: pre-line;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.team-image {
+    display: flex;
+}
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-pic {
+    margin: 10px;
+}
+
+.profile-pic img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+#div-img1 {
+    width: 320px;
+}
+
+#pic1 {
+    width: 260px;
+}
+
+#pic2 {
+    width: 300px;
+}
