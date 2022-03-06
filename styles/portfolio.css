@@ -1,0 +1,48 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.project {
+    padding: 20px;
+}
+
+.project:nth-child(2n + 1) {
+    margin-top: 100px;
+}
+
+.portfolio {
+    margin: 35px;
+}
+
+#design {
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio {
+        margin: 10px;
+    }
+
+    .project:nth-child(2n + 1) {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio {
+        margin: 5px;
+    }
+
+    .projects {
+        grid-template-columns: 100%;
+    }
+
+    .project:nth-child(2n + 1) {
+        margin-top: 0px;
+    }
+
+    #design {
+        margin-left: 10px;
+    }
+}
