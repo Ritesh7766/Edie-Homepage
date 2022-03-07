@@ -49,7 +49,7 @@
 }
 
 .reference {
-    margin: 70px;
+    margin: 100px 70px;
 }
 
 .tweet {
@@ -72,6 +72,43 @@
 
 .light-text {
     color: #828282;
+}
+
+.bottom-nav {
+    background-color: #100E1D;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-nav * {
+    color: white;
+}
+
+.links {
+    padding: 20px;
+}
+
+.logo-cont {
+    padding: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+}
+
+.media {
+    margin: 5px;
+}
+
+.padd {
+    padding: 20px;
 }
 
 @media screen and (max-width: 1120px) {
@@ -115,6 +152,12 @@
     .reference {
         margin: 5px;
         margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bottom-nav {
+        flex-direction: column;
     }
 }
 
