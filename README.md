@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href = "https://github.com/Ritesh7766/My-Team-Page">
+    <a href = "https://github.com/Ritesh7766/Edie-Homepage">
       Solution
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/Ritesh7766/My-Team-Page/blob/main/assets/team.png)
+![screenshot](https://github.com/Ritesh7766/Edie-Homepage/blob/main/assets/proj1.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
