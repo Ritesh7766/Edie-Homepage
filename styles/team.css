@@ -84,6 +84,10 @@
     color: white;
 }
 
+.bottom-nav input {
+    color: #100E1D;
+}
+
 .links {
     padding: 20px;
 }
@@ -146,10 +150,6 @@
 }
 
 @media screen and (max-width: 830px) {
-    .team {
-        flex-direction: column;
-    }
-
     .reference {
         margin: 5px;
         margin-top: 70px;
@@ -158,6 +158,10 @@
 }
 
 @media screen and (max-width: 700px) {
+    .team {
+        flex-direction: column;
+    }
+
     .bottom-nav {
         flex-direction: column;
     }
